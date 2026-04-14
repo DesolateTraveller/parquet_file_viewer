@@ -4,9 +4,9 @@ import pandas as pd
 ### Title for your Streamlit app
 #---------------------------------------------------------------------------------------------------------------------------------
 st.set_page_config(page_title="Parquet File Viewer | v0.2 ",
-                   page_icon='https://www.clariant.com/images/clariant-logo-small.svg',
-                   layout="wide",
-                   initial_sidebar_state="auto",) 
+                    layout="wide",
+                    page_icon="📑",            
+                    initial_sidebar_state="auto")
 #---------------------------------------------------------------------------------------------------------------------------------
 ### Description for your Streamlit app
 #---------------------------------------------------------------------------------------------------------------------------------
