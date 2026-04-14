@@ -51,17 +51,18 @@ st.markdown(
     unsafe_allow_html=True)
 
 #----------------------------------------
-st.markdown("""
+st.markdown(
+    """
     <style>
     .footer {
         position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: #F9F9FB;
+        background-color: #F0F2F6;
         text-align: center;
-        padding: 5px;
-        font-size: 15px;
+        padding: 10px;
+        font-size: 14px;
         color: #333;
         z-index: 100;
     }
@@ -73,13 +74,10 @@ st.markdown("""
         color: blue;
     }
     </style>
-
     <div class="footer">
-        <p>© 2026 | Developed by: <span class="highlight">EPT - Digital Solutions</span> | Prepared by: <a href="mailto:avijit.chakraborty@clariant.com">Avijit Chakraborty</a> | Unauthorized uses or copying is strictly prohibited </p> 
-        
+        <p>© 2026 | Created by : <span class="highlight">Avijit Chakraborty</span> <a href="mailto:avijit.mba18@gmail.com"> 📩 </a> | <span class="highlight">Thank you for visiting the app | Unauthorized uses or copying is strictly prohibited | For best view of the app, please zoom out the browser to 75%.</span> </p>
     </div>
-    
-""", unsafe_allow_html=True)
+    """,unsafe_allow_html=True)
 
 #<span class="highlight">Thank you for visiting the app | This app is created for internal use, unauthorized uses or copying is strictly prohibited | For best view of the app, please zoom out the browser to 75%.</span>
 #---------------------------------------------------------------------------------------------------------------------------------
